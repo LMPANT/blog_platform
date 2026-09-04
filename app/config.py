@@ -5,7 +5,7 @@ class Settings(BaseSettings):
     PROJECT_NAME: str = "Blog Platform API"
     DEBUG: bool = True
 
-    DATABASE_URL: str = "postgresql://blog_user:blog_password@localhost:5432/blog_db"
+    DATABASE_URL: str = "postgresql://pfaldb:pfaldb@localhost:5432/pfaldb"
 
     SECRET_KEY: str = "change-this-to-a-long-random-secret-string"
     ALGORITHM: str = "HS256"
